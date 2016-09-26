@@ -59,7 +59,7 @@ class ApiKeyAuthenticate extends BaseAuthenticate
      *
      * Config:
      *   $this->Auth->config('storage', 'Memory');
-     *   $this->Auth->config('unauthorizedRedirect', 'false');
+     *   $this->Auth->config('unauthorizedRedirect', false);
      *   $this->Auth->config('checkAuthIn', 'Controller.initialize');
      *   $this->Auth->config('loginAction', false);
      *
